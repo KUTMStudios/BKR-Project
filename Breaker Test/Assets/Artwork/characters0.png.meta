@@ -8,6 +8,7 @@ TextureImporter:
     21300002: Player_Archer
     21300004: Player_Knight
     21300006: Test_NPC
+    21300008: Mimic_0
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -153,6 +154,20 @@ TextureImporter:
         y: 239
         width: 25
         height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mimic_0
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
