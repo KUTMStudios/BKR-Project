@@ -24,6 +24,8 @@ TextureImporter:
     21300034: LeftEndGrayWall_0
     21300036: HMiddleGrayWall_0
     21300038: Background_0
+    21300040: GrayFloor_0
+    21300042: Teleport_0
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -353,6 +355,34 @@ TextureImporter:
         height: 25
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GrayFloor_0
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 570
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Teleport_0
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 986
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

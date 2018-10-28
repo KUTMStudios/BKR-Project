@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 421eb06ec377290438f3bc89a11c9c18
-timeCreated: 1533706909
+guid: 47ae6a65bdec5c44cada104d5ff03db3
+timeCreated: 1540684441
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Player_Mage
-    21300002: Player_Archer
-    21300004: Player_Knight
-    21300006: Test_NPC
+    21300000: GazzelleTestfront
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -35,7 +32,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -104,55 +101,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_Mage
+      name: GazzelleTestfront
       rect:
         serializedVersion: 2
-        x: 72
-        y: 263
-        width: 25
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Player_Archer
-      rect:
-        serializedVersion: 2
-        x: 23
-        y: 263
-        width: 25
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Player_Knight
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 263
-        width: 25
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Test_NPC
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 239
-        width: 25
-        height: 25
+        x: 518
+        y: 2053
+        width: 498
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
