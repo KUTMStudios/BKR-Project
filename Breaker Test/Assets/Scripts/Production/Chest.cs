@@ -2,10 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Chest : Collidable
+public class Chest : Collectable
 {
-    protected override void OnCollide(Collider2D coll)
+    public Sprite Empty_Chest;
+    public int pesosAmount = 10;
+
+    protected override void OnCollect()
     {
-        Debug.Log("Grant Pesos");
+        if (!collected)
+        {
+            collected = true;
+            GetComponent<SpriteRenderer>().sprite = Empty_Chest;
+            Debug.Log("Grant " + pesosAmount + " pesos!");
+        }
     }
 }
