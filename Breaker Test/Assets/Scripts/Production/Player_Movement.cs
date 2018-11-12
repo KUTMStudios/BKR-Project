@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//ponz se la come
+
 public class Player_Movement : MonoBehaviour
 {
     private BoxCollider2D boxCollider;

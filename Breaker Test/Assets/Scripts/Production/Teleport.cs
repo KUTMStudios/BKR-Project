@@ -13,6 +13,7 @@ public class Teleport : Collidable
             //Teleport Player
             string sceneName = sceneNames[Random.Range(0, sceneNames.Length)];
             UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
+
         }
     }
 }
